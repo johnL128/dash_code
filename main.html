@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=800px, height=480px, initial-scale=1.0">
+    <title>main</title>
+    <link rel="stylesheet" href="main.css">
+    <script type="text/javascript" src="/eel.js"></script>
+    <script type="text/javascript" src="/scripts.js"></script>
+
+</head>
+<body style="margin: 0; ">
+    <div style="width: 800px; height: 480px; border: 1px solid black;"> 
+        <div class="drive_status">
+            <ul >
+                <li class="selected"> STNB </li>
+                <li > BUZZ </li>
+                <li > DRIV </li>
+                <li > ERRO </li>
+            </ul>
+        </div>
+
+        <div class="Left_Data">
+            <div class="value_disp" style="top:5mm; left:6mm;">
+                <p class="label">CHARGE</p>
+                <p class="value" id="chargeValue">100%</p>   
+            </div>
+
+            <div class="value_disp" style="top:35mm; left:6mm;">
+                <p class="label">RPM</p>
+                <p class="value" id="rpmValue">99999</p>   
+            </div>
+
+            <div class="value_disp" style="top:65mm; left:6mm;">
+                <p class="label">CELL TEMP</p>
+                <p class="value" id="cellTempValue">70&#176C</p>   
+            </div>
+        </div>
+
+        <div class="Right_Data">
+            <div class="value_disp" style="top:5mm; left:160mm;">
+                <p class="label">CURRENT</p>
+                <p class="value" id="currentValue">25A</p>   
+            </div>
+
+            <div class="value_disp" style="top:35mm; left:160mm">
+                <p class="label">SPEED</p>
+                <p class="value" id="speedValue">12345</p>   
+            </div>
+
+            <div class="value_disp" style="top:65mm; left:160mm">
+                <p class="label">CONT. TEMP</p>
+                <p class="value" id="controllerTempValue">70&#176C</p>   
+            </div>
+        </div>
+
+        <div class="Status_Bar">
+            <div class="icon"><img src="Resources/GPS_Icon.png" alt=""></div>
+            <div class="icon_logo"><img src="Resources/Logo_cropped.png" alt=""></div>
+            <div class="icon"><img src="Resources/GPS_Icon.png" alt=""></div>
+
+        </div>
+        <!-- <div class="Status_Bar">
+            <ul class="Status_Bar">
+                <li class=""><div class="icon"><img src="Resources/GPS_Icon.png" alt=""></div></li>
+                <li class=""><div class="icon"><img src="Resources/GPS_Icon.png" alt=""></div></li>
+                <li class=""><div class="icon"><img src="Resources/GPS_Icon.png" alt=""></div></li>
+                <li class=""><div class="icon"><img src="Resources/GPS_Icon.png" alt=""></div></li>
+                <li class=""><div class="icon"><img src="Resources/GPS_Icon.png" alt=""></div></li>
+
+            </ul>
+        </div> -->
+        
+
+    
+    
+    
+    </div> 
+</body>
+</html>
